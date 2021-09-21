@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: white;
+}
+
+#BirthdayBox {
+    background-color: teal;
+    height: 300px;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    font-size: 40px;
+}
+
+.timer-box {
+    height: 90px;
+    width: 100px;
+    margin: auto;
+    border: 2px solid orange;
+    display: table-cell;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.time {
+    color: white;
+    font-size: 30px;
+}
